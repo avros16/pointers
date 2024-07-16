@@ -1,5 +1,5 @@
 //a variable is a location in which u store info
-// a pointer is a variable that holds memory that points to location
+// a pointer is a variable that holds memory address
 
 int holds 4 bytes
 bool 1 byte. false = 0, true = 1
@@ -15,3 +15,12 @@ pointers enable pass by refernce.
   -- pass by value is just a copy of the value. 
 
   pointers can be used to create and manipulate dynamic data structures (structures that can grow and shrink)
+
+  "unsigned" means positive (non negative)
+
+  "\t" will print on next tab
+
+   & will return address. ex: cout << &nameofVar
+
+   ternary # system. ex: 564  == 5x10^2 + 6x10^1 + 4x10^0. 
+   binary means turns base 10 to 2. 
