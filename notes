@@ -1,0 +1,17 @@
+//a variable is a location in which u store info
+// a pointer is a variable that holds memory that points to location
+
+int holds 4 bytes
+bool 1 byte. false = 0, true = 1
+float  -- 4 bytes
+double -- 8 bytes
+char (variable type -- 1 byte 
+short (int) -- 2 bytes
+long(int) -- 4 bytes
+
+pointers -- 4 bytes
+
+pointers enable pass by refernce. 
+  -- pass by value is just a copy of the value. 
+
+  pointers can be used to create and manipulate dynamic data structures (structures that can grow and shrink)
