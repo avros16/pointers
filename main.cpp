@@ -4,18 +4,18 @@ using namespace std;
 
 int main() {
 
-  unsigned short shortVar{5};
-  unsigned long longVar{65535};
-  
- cout << "shortVar:\t" << shortVar;
-  cout << "\tAddress of shortVar:\t" << &longVar <<endl;
+int a;
+int *aptr;
 
+  a=7;
+  aptr= & a;
 
-  cout << "longVar:\t" << longVar;
- cout << "\tAddress of longVar:\t" << longVar;
-  
+  cout << "address: " << &a;
+  cout << "the value of a is " << a << "the value of * aptr:" << *aptr;
 
+  cout << endl;
 
-
-  
-}
+  cout << " & *aptr: " << & *aptr << "\t & aptr" << *& aptr << endl;
+    
+    
+    }

@@ -24,3 +24,9 @@ pointers enable pass by refernce.
 
    ternary # system. ex: 564  == 5x10^2 + 6x10^1 + 4x10^0. 
    binary means turns base 10 to 2. 
+
+
+   how to delcare pointer: [use "*" called dereferencing operator]
+   
+   int *aPtr;
+   int *bPtr;
