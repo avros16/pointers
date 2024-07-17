@@ -1,20 +1,16 @@
 #include <iostream>
 using namespace std;
-void cubeByReference (int *);
+void square (int &);
 
 int main() {
 
-int num{5};
-  cout << "the value of num is " << num;
+int a{2};
+  square(a);
+  
+  cout << "the value of a is " << a;
 
-cubeByReference(&num);
 
-  cout << "num: " << num;
- 
-
-    
-    
     }
-void cubeByReference (int * nPtr) {
-  *nPtr = *nPtr * *nPtr* *nPtr;
+void square (int & aRef) {
+  aRef = aRef * aRef;
 }
