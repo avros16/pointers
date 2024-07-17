@@ -1,21 +1,20 @@
 #include <iostream>
 using namespace std;
-
+void cubeByReference (int *);
 
 int main() {
 
-int a;
-int *aptr;
+int num{5};
+  cout << "the value of num is " << num;
 
-  a=7;
-  aptr= & a;
+cubeByReference(&num);
 
-  cout << "address: " << &a;
-  cout << "the value of a is " << a << "the value of * aptr:" << *aptr;
+  cout << "num: " << num;
+ 
 
-  cout << endl;
-
-  cout << " & *aptr: " << & *aptr << "\t & aptr" << *& aptr << endl;
     
     
     }
+void cubeByReference (int * nPtr) {
+  *nPtr = *nPtr * *nPtr* *nPtr;
+}
